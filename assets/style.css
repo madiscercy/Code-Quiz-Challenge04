@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --box-color: rgb(239, 210, 232);
+    --button-color: rgb(229, 161, 204);
+}
+
+header{
+    text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans';
+}
+
+.view-highscore {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.timer {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.display-none {
+    display: none;
+}
+
+button {
+    background-color: var(--box-color);
+
+}
+
+button:hover {
+    background-color: var(--button-color);
+    
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+/* .option-container {
+    display: block;
+    margin: 80px auto;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+    width: 60vw;
+    background-color: var(--box-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.question-container{
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--button-color);
+    border-radius: 30%;
+}
+
+.option {
+    padding: 10px;
+    width: 10vw;
+    height: 7vh;
+    font-size: 30px;
+    background-color: var(--button-color);
+    border-radius: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ */
