@@ -11,8 +11,9 @@
 </head>
 
 <body>
+    <!-- start page -->
     <section>
-        <h3 class="view-highscore">View Highscores</h3>
+        <button class="view-highscores show">View Highscores</button>
         <h3 class="timer">Timer</h3>
     </section>
     <section class="main-page show">
@@ -20,30 +21,32 @@
         <h1 class="title">Coding Quiz Challenge</h1>
         <h5 class="sub-title">Madison Scercy</h5>
     </header>
-    
         <p class="sub-content">Press start to begin quiz.</p>
-        <!-- <div class="options">
-            <h4 class="option-1"></h4>
-            <h4 class="option-2"></h4>
-            <h4 class="option-3"></h4>
-            <h4 class="option-4"></h4>
-        </div> -->
         <div class="buttons">
             <button id="button-1">Start</button>
             <button class="button-2 display-none"></button>
         </div>
     </section>
+    <!-- quiz page -->
     <section class="quiz hide">
         <h1>Questions</h1>
         <h5 class="question-title"></h5>
         <div class="question-buttons"></div>
     </section>
+    <!-- end page -->
     <section class="end-page hide">
         <h3 class="all-done">All done!</h3>
         <p class="final-score">Your final score is</p>
         <label class="enter-initials">Enter initials: </label>
         <input type="text" class="highscore-input" name="hs-input"><br><br>
         <input type="submit" value="Submit" class="submit">
+    </section>
+    <!-- highscore page -->
+    <section class="highscore-page hide">
+        <h2>Highscores</h2>
+        <div class="saved-highscores"></div>
+        <button class="go-back">Go back</button>
+        <button class="clear-highscore">Clear highscore</button>
     </section>
     <script src="scripts/qna.js"></script>
     <script src="scripts/script.js"></script>
